@@ -1,0 +1,17 @@
+name: Deploy React APP
+
+on: 
+  workflow_dispatch
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Build react app
+    steps:
+      - uses: actions/checkout@v3
+      - name: Go to gitworkspace
+      - run: echo "hello"
+       
