@@ -1,6 +1,6 @@
 name: Deploy React APP
 
-on: [ worflow_dispatch ]
+on: workflow_dispatch
 
 jobs:
   build:
@@ -8,6 +8,6 @@ jobs:
     name: Build react app
     steps:
       - uses: actions/checkout@v3
-      - name: Go to gitworkspace
-      - run: echo "hello"
+      - name: Print hello 
+        run: echo "hello"
        
