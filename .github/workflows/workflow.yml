@@ -38,6 +38,6 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: Build
-          path: build
+          path: /home/runner/work/react_azure_webapp/react_azure_webapp/my-app/build
 
                     
