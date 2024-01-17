@@ -34,9 +34,8 @@ jobs:
           npm run build --if-present
           pwd
           ls
-          cd build
           npm install -g serve
-          serve -s .
+          serve -s build
       - name: Upload Build 
         uses: actions/upload-artifact@v3
         with:
